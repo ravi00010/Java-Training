@@ -1,5 +1,7 @@
 package Day4;
 
+import java.lang.reflect.Array;
+
 public class ArrayEx {
     // array is a collection of elements of same data type stored in continous
     // memory loction.
@@ -21,5 +23,31 @@ public class ArrayEx {
         }
 
         // using for each loop
+        for (int i : num) {
+            System.out.println(i);
+        }
+
+        // 2D array
+
+        int[][] twodimentional = {
+                { 1, 2, 3 },
+                { 4, 5, 6 }
+        };
+
+        // 3D array
+        int[][][] threedimentional = {
+                {
+
+                }
+        };
+
+        // jagged array
+        // 2D array where each row can have different number of columns
+
+        int[][] jagged = new int[3][];
+        jagged[0] = new int[] { 1, 2 };
+        jagged[1] = new int[] { 1, 2, 3 };
+        jagged[2] = new int[] { 1, 2, 3, 4 };
+
     }
 }
