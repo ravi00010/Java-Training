@@ -1,6 +1,6 @@
 package Day4;
 
-import java.lang.reflect.Array;
+//import java.lang.reflect.Array;
 
 public class ArrayEx {
     // array is a collection of elements of same data type stored in continous
@@ -29,17 +29,19 @@ public class ArrayEx {
 
         // 2D array
 
-        int[][] twodimentional = {
-                { 1, 2, 3 },
-                { 4, 5, 6 }
-        };
-
-        // 3D array
-        int[][][] threedimentional = {
-                {
-
-                }
-        };
+        /*
+         * int[][] twodimentional = {
+         * { 1, 2, 3 },
+         * { 4, 5, 6 }
+         * };
+         * 
+         * // 3D array
+         * int[][][] threedimentional = {
+         * {
+         * 
+         * }
+         * };
+         */
 
         // jagged array
         // 2D array where each row can have different number of columns
